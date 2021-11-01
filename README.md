@@ -4,3 +4,7 @@ Run `git clone https://github.com/iammati/vite-ddev . && ddev start && ddev comp
 
 ## Requirements
 - Working DDEV-Local instance
+
+## Caveats
+
+if you get an error related to the package.json you may need to ssh into your ddev web-container by using `ddev ssh` and run `cd app/frontend && pnpm install` so the required dependencies will be installed.
