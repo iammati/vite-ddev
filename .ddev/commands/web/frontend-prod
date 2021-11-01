@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## Description: Preparing compiled assets (under /public/dist) to be ready-to-use for production via vitejs/vite.
+## Usage: frontend-prod
+## Example: "ddev frontend-prod"
+
+## Preparing compiled files under /public/dist
+## being ready to be deployed towards production-env
+cd app/frontend && pnpm run prod

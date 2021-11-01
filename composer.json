@@ -1,0 +1,10 @@
+{
+    "require": {
+        "symfony/dotenv": "^5.3"
+    },
+    "autoload": {
+        "files": [
+            "src/ViteService.php"
+        ]
+    }
+}

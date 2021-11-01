@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Extremely fast frontend-development via dev-server from vitejs/vite. It's really fast!
+## Usage: frontend-dev
+## Example: "ddev frontend-dev"
+
+## The ampersand (&-char) makes the process run in the background.
+## So basically we run the production-build as watcher + file changes
+## to update our /public/dist compiled files
+## while running a dev-server for development.
+cd app/frontend && pnpm run dev

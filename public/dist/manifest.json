@@ -1,0 +1,10 @@
+{
+  "src/TypeScript/app.ts": {
+    "file": "assets/app.b4c6ffa7.js",
+    "src": "src/TypeScript/app.ts",
+    "isEntry": true,
+    "css": [
+      "assets/app.b8b54cc9.css"
+    ]
+  }
+}

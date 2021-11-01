@@ -1,0 +1,16 @@
+// tailwindcss testing
+@layer utilities {
+    @variants responsive {
+        .scroll-snap-none {
+            scroll-snap-type: none;
+        }
+
+        .scroll-snap-x {
+            scroll-snap-type: x;
+        }
+
+        .scroll-snap-y {
+            scroll-snap-type: y;
+        }
+    }
+}
